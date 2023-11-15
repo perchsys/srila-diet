@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "username": "admin",
+      "password": "456",
+      "role": "admin"
+    },
+    {
+      "username": "diabetes",
+      "password": "123",
+      "role": "diabetes"
+    },
+    {
+      "username": "pregnancy",
+      "password": "123",
+      "role": "pregnancy"
+    },
+    {
+      "username": "hypertension",
+      "password": "123",
+      "role": "hypertension"
+    },
+    {
+      "username": "obesity",
+      "password": "123",
+      "role": "obesity"
+    },
+    {
+      "username": "pcos",
+      "password": "123",
+      "role": "pcos"
+    },
+    {
+      "username": "pcos",
+      "password": "456",
+      "role": "pcos"
+    },
+    {
+      "id": "3",
+      "username": "jan",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "username": "honey",
+      "password": "123",
+      "role": "pcos",
+      "id": "eJ4X_AW"
+    },
+    {
+      "username": "honey",
+      "password": "123",
+      "role": "pcos",
+      "id": "4eJTeM4"
+    },
+    {
+      "username": "hari",
+      "password": "345",
+      "role": "pcos",
+      "id": "QItaZfB"
+    },
+    {
+      "username": "hari",
+      "password": "345",
+      "role": "Diabetes",
+      "id": "I5q_Cyl"
+    },
+    {
+      "username": "kan",
+      "password": "123",
+      "role": "admin",
+      "id": "2yPqCGQ"
+    },
+    {
+      "username": "ramu",
+      "password": "123",
+      "role": "Obesity",
+      "id": "h0qguvu"
+    },
+    {
+      "username": "kali",
+      "password": "9898",
+      "role": "Hypertension",
+      "id": "MQHCSi3"
+    },
+    {
+      "username": "eas",
+      "password": "123",
+      "role": "Obesity",
+      "id": "4C7bUw-"
+    },
+    {
+      "username": "eas",
+      "password": "123",
+      "role": "Obesity",
+      "id": "mqY7Jsx"
+    },
+    {
+      "username": "kli",
+      "password": "777",
+      "role": "Diabetes",
+      "id": "s8EUcO4"
+    },
+    {
+      "username": "kli",
+      "password": "777",
+      "role": "Diabetes",
+      "id": "pg65zo4"
+    }
+  ]
+}

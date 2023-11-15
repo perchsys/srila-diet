@@ -1,0 +1,97 @@
+/* Styles for the "Add User" form */
+.information {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .information label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .information input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .information button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  /* Styles for the table displaying fetched data */
+.employees {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .employees button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .employee {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .employee h3 {
+    margin: 0;
+  }
+  
+  .employee input {
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .employee button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  /* CSS Styles for the User Table */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding-left: 0px;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ccc;
+    padding: px;
+    text-align: center;
+  }
+  
+  .user-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .user-table button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .user-table delete {
+    color: #ff0000;
+  }

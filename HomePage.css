@@ -1,0 +1,250 @@
+/* homepage.css */
+.carousel {
+  margin-top: -30px;
+  width: 120%; /* Increase the width of the carousel container */
+  margin-left: -10%; /* Adjust to control the additional width on the left */
+  margin-right: -10%; /* Adjust to control the additional width on the right */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .carousel-item {
+    /* Adjust the width and height of individual carousel items (slides) */
+    width: 100%; /* You can adjust this value to your preference */
+    height: auto;
+    /* Adjust the height as needed */
+  }
+  :root {
+    --bs-link-color-rgb: black; /* Set the RGB color values */
+    --bs-link-opacity: 0.7; /* Set the opacity value */
+}
+
+  .carousel-caption {
+    background-color: rgba(121, 120, 120, 0.7);/* Semi-transparent background for captions */
+    border-radius: 5px; /* Rounded corners for captions */
+    color: #000000; /* Text color for captions */
+    padding: 10px; /* Spacing inside captions */
+  }
+  
+  .carousel-caption h3 {
+    font-size: 20px;
+    color: black; /* Font size for the caption title */
+  }
+  .black-text {
+    color: black;
+  }
+  
+  .carousel-caption p {
+    font-size: 10px; /* Font size for the caption description */
+  }
+  
+  .carousel-caption button {
+    margin-top: 10px; /* Add space between caption text and button */
+  }
+  
+  .title h6 {
+    white-space: nowrap;
+  }
+.navbar-nav {
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #d6d9db;
+  }
+  .form-inline {
+    margin-left: 20px;
+  }
+  
+  .form-control {
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  .btn-navbar {
+    border: none;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .btn-navbar:hover {
+    color: #dee1e4;
+  }
+.logo{
+    display: block;
+}
+
+.cat{
+ 
+    display: flex;
+    gap:60px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+  }
+ 
+  
+  .cat::after{
+   background-color: rgb(6, 7, 7);
+   transition:0.5s ;
+  }
+
+  /* homepage.css */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .cat img {
+    margin-right: 0px;
+  }
+  
+  .h3 {
+    color: #000000;
+    padding: 10px;
+  }
+  
+
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .input-group input[type="text"]:focus {
+    outline: none;
+  }
+  
+  .input-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: #444;
+    z-index: 1;
+  }
+  
+  .input-group li {
+    padding: 10px;
+    border-bottom: 1px solid #9e9e9e;
+  }
+  
+  .input-group .input-group-append button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .input-group .input-group-append button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+  }
+  
+  .na h3 {
+    margin: 0;
+  }
+  
+  .na a:hover {
+    text-decoration: bisque;
+  }
+  
+  /* Styles for mobile screens (up to 768px) */
+  @media (max-width: 868px) {
+    .cat {
+     
+      align-items: center;
+      text-align: center;
+    }
+  
+    .cat img {
+      margin-left: 10px;
+      margin-bottom: 0px;
+    }
+  
+    
+  
+    .navList {
+      margin-top: 0px;
+    }
+  }
+  
+  /* Styles for desktop screens (769px and above) */
+  @media (min-width: 1569px) {
+    .input-group {
+      width: 100px;
+    }
+  }
+  .dropdown-toggle {
+    background-color: #fdfdfd;
+    color: #050505;
+    border: none;
+    margin-left: 170px;
+  }
+  
+  /* Style the dropdown toggle button on hover */
+  .dropdown-toggle:hover {
+    background-color: #faf9f9;
+    color: #050505;
+  }
+  
+  /* Style the dropdown menu background */
+  .dropdown-menu {
+    background-color: #f9f9f9;
+    color: #000000;
+  }
+  
+  /* Style the dropdown menu items */
+  .dropdown-menu .dropdown-item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Style the dropdown menu items on hover */
+  .dropdown-item:hover {
+    background-color: #ebebeb;
+    color: #000000;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+    
+    /* Add more styles as needed */
+  }

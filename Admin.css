@@ -1,0 +1,88 @@
+/* CSS for Mobile View */
+.form {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    appearance: none; /* Remove default select arrow */
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF; /* Change the button color to your preference */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+    .form {
+        padding: 10px;
+    }
+
+    .input, .select, .button {
+        font-size: 14px;
+    }
+}
+
+/* CSS for Mobile View */
+.data {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+    th, td {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
+

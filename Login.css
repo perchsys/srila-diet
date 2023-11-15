@@ -1,0 +1,79 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    max-width: 360px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-box-msg {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #2b72be;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #336daa;
+  }
+  
+  .mb-1,
+  .mb-0 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .mb-0 a {
+    color: #245d99;
+    text-decoration: none;
+  }
+  
+  .mb-0 a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-auth-links {
+    text-align: center;
+  }
+  
+  .social-auth-links p {
+    margin: 10px 0;
+  }
+  /* Register.css */
+  .register-box {
+    margin: 0 auto;
+    max-width: 360px;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+  }
+  
+  .register-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
